@@ -17,8 +17,8 @@ To write a Python program to Insert 5 elements in a queue and delete some specif
 ## Program
 
 ```python
-# Name: Nidhish B
-# Reg.No: 212223050032
+# Name: Gopinath G
+# Reg.No: 212223070007
 
 queue = []
 
