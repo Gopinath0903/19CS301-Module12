@@ -20,8 +20,8 @@ To Type and display all the elements inserted and also display after deleting on
 
 ```python
 
-# Name: Nidhish B
-# Reg.No: 212223050032
+# Name: Gopinath G
+# Reg.No: 212223070007
 
 stack = []
 
