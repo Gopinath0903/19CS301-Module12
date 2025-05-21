@@ -16,8 +16,8 @@ To write a Python program to insert 3 elements into a stack and display the inde
 ## Program
 
 ```python
-# Name: Nidhish B
-# Reg.No: 212223050032
+# Name: Gopinath G
+# Reg.No: 212223070007
 
 stack = []
 stack.append('a')
