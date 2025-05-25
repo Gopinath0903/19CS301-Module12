@@ -1,0 +1,41 @@
+##Aim:
+write a python program to display all positive numbers in a reverse order with a difference 2  from 'N' using nested recursion
+
+##Algorithm:
+
+1. Read an integer `N`.
+2. Define a function `outer_recursion(N)`:
+
+   * Inside it, define another function `inner_recursion(current)`:
+
+     * If `current` is less than 0, stop.
+     * Else:
+
+       * Print `current`.
+       * Call `inner_recursion(current - 2)`.
+3. Call `outer_recursion(N)`.
+
+##Program:
+```
+##Name-Gopinath G
+##Reg  no-212223070007
+
+def outer_recursion(N):
+    def inner_recursion(current):
+        if current < 0:
+            return
+        print(current, end=' ')
+        inner_recursion(current - 2)
+    inner_recursion(N)
+
+N = int(input())
+outer_recursion(N)
+```
+
+
+##Output:
+
+
+
+##Result:
+Thus the python program to display all positive numbers in a reverse order with a difference 2  from 'N' using nested recursion was executed successfully.
